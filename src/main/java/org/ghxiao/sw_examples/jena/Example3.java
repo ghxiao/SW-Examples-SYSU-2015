@@ -27,7 +27,7 @@ public class Example3 {
         m.write( System.out );
         System.out.println( "# -- nsA and cat defined" );
         m.setNsPrefix( "cat", nsB );
-        m.write( System.out );
+        m.write( System.out, "TURTLE" );
 
     }
 }

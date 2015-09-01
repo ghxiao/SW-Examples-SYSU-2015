@@ -1,0 +1,20 @@
+@prefix dbpedia:	<http://dbpedia.org/resource/> .
+@prefix umbel-sc:	<http://umbel.org/umbel/sc/> .
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix p:	<http://www.example.org/bla/> .
+
+dbpedia:Mount_Etna	rdf:type 	umbel-sc:Volcano ; 
+			rdfs:label 	"Etna" .
+dbpedia:Mount_Baker 	rdf:type 	umbel-sc:Volcano. 
+dbpedia:Beerenberg 	rdf:type 	umbel-sc:Volcano,
+					umbel-sc:NaturalElevation ;
+			rdfs:label 	"Beerenberg"@en ;
+			rdfs:label 	"Беренберг"@ru  .
+
+dbpedia:Mount_Baker 	rdf:type umbel-sc:Volcano ; 
+        p:location [ rdfs:label 	"United States"@en ,
+            					"États-Unis"@fr ] . 
+dbpedia:Mount_Etna 	rdf:type umbel-sc:Volcano ;   
+            	 p:location [ rdfs:label "Italy" ] .
+
