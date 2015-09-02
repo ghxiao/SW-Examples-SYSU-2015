@@ -1,0 +1,11 @@
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbp: <http://dbpedia.org/property/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?p ?n ?l WHERE {
+  ?p 	a 		dbo:Person .
+  ?p    rdfs:label ?l .
+  ?p 	dbp:nationality 	?n .
+  FILTER(REGEX(STR(?n),"chin","i"))
+  FILTER(LANG(?l) = "zh")
+}

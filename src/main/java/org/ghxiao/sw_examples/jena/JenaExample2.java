@@ -6,7 +6,7 @@ import org.apache.jena.util.FileManager;
 
 import java.io.InputStream;
 
-public class Example2 {
+public class JenaExample2 {
     public static void main(String[] args) {
         // create an empty model
         Model model = ModelFactory.createDefaultModel();
