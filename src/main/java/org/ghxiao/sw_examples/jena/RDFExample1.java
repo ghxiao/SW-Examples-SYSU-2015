@@ -9,7 +9,7 @@ import org.apache.jena.rdf.model.Statement;
 import org.apache.jena.rdf.model.StmtIterator;
 import org.apache.jena.vocabulary.VCARD;
 
-public class JenaExample1 {
+public class RDFExample1 {
 
     public static void main(String[] args) {
 

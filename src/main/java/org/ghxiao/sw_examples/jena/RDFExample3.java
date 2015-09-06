@@ -8,7 +8,7 @@ import org.apache.jena.util.FileManager;
 
 import java.io.InputStream;
 
-public class JenaExample3 {
+public class RDFExample3 {
     public static void main(String[] args) {
         Model m = ModelFactory.createDefaultModel();
         String nsA = "http://somewhere/else#";

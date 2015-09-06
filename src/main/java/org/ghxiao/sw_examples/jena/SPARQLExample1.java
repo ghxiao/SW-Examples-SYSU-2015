@@ -17,7 +17,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class JenaSPARQLExample1 {
+public class SPARQLExample1 {
 
     public static void main(String[] args) throws IOException {
         // create an empty model
